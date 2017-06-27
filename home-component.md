@@ -4,11 +4,9 @@ Utlizando el angular cli
 
 `ng g component home`
 
-
-
 home.component.ts
 
 import {AngularFireDatabase, FirebaseListObservable} from 'angularfire2/database';
 
-tasks: FirebaseListObservable&lt;any\[\]&gt;;
+products: FirebaseListObservable&lt;any\[\]&gt;;
 
