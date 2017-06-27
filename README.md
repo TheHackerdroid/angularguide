@@ -20,35 +20,35 @@ ingresar al arcivo app.modulee.ts y agregar la tablade firebase
 
 `import { AngularFireModule } from 'angularfire2';`
 
-`import { AngularFireDatabaseModule } from 'angularfire2/database';`
+`import { AngularFireDatabaseModule } from 'angularfire2/database';`
 
-`export const firebaseConfig = {`
+`export const firebaseConfig = {`
 
-`  apiKey: "",`
+`apiKey: "",`
 
-`  authDomain: "",`
+`authDomain: "",`
 
-`  databaseURL: "",`
+`databaseURL: "",`
 
-`  projectId: "",`
+`projectId: "",`
 
-`  storageBucket: "",`
+`storageBucket: "",`
 
-`  messagingSenderId: ""`
+`messagingSenderId: ""`
 
-`};`
+`};`
 
 y agregar las siguientes lineas en import
 
 `...`
 
-`  imports: [`
+`imports: [`
 
-`    AngularFireModule.initializeApp(firebaseConfig),`
+`AngularFireModule.initializeApp(firebaseConfig),`
 
-`    AngularFireDatabaseModule`
+`AngularFireDatabaseModule`
 
-`  ],`
+`],`
 
 `....`
 
