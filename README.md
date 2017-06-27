@@ -1,3 +1,20 @@
-# My Awesome API
+# Start Prject Angular
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
+
+`ng new name-project`
+
+
+
+## Firebase
+
+Instalamos firebase
+
+El primer módulo de nodo que necesitamos instalar es el módulo @types. En el desarrollo inicial de TypeScript, había varios gestores de declaración de tipos diferentes para los archivos .d.ts. Con el lanzamiento de TypeScript 2.0, el método preferido es utilizar el módulo @types para administrar cualquier declaración de biblioteca adicional:
+
+
+
+
+
+
+
