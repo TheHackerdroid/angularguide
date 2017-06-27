@@ -18,41 +18,29 @@ y por ultimo el modulo de angularfirebase
 
 ingresar al arcivo app.modulee.ts y agregar la tablade firebase
 
-`import { AngularFireModule } from 'angularfire2';`
-
-`import { AngularFireDatabaseModule } from 'angularfire2/database';`
-
-`export const firebaseConfig = {`
-
-`apiKey: "",`
-
-`authDomain: "",`
-
-`databaseURL: "",`
-
-`projectId: "",`
-
-`storageBucket: "",`
-
-`messagingSenderId: ""`
-
-`};`
+```
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+export const firebaseConfig = {
+apiKey: "",
+authDomain: "",
+databaseURL: "",
+projectId: "",
+storageBucket: "",
+messagingSenderId: ""
+};
+```
 
 y agregar las siguientes lineas en import
 
-`...`
-
-`imports: [`
-
-`AngularFireModule.initializeApp(firebaseConfig),`
-
-`AngularFireDatabaseModule`
-
-`],`
-
-`....`
-
-
+```
+...
+imports: [
+AngularFireModule.initializeApp(firebaseConfig),
+AngularFireDatabaseModule
+],
+....
+```
 
 
 
