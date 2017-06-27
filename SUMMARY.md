@@ -1,8 +1,9 @@
 # Summary
 
-## Overview
+## Start Project
 
 * [Firebase](README.md)
+* [Home Component](home-component.md)
 
 ## Methods
 
