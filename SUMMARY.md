@@ -11,6 +11,7 @@
 
 ## Formularios
 
+* [Entradas de usuario](formularios/entradas-de-usuario.md)
 * [Introducción](formularios/introduccion.md)
 * [FormGroup](formularios/formgroup.md)
 
