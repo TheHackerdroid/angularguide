@@ -1,6 +1,6 @@
-# Formularios en Angular![](/assets/import.png)
+# Formularios en Angula
 
-
+![](/assets/import.png)
 
 Los formularios son el pilar de las aplicaciones empresariales. Utiliza formularios para iniciar sesión, enviar una solicitud de ayuda, realizar un pedido, reservar un vuelo, programar una reunión y realizar innumerables tareas de entrada de datos.
 
@@ -17,8 +17,6 @@ Esta página le muestra cómo crear un formulario simple desde cero. En el camin
 * Mostrar errores de validación a los usuarios y activar / desactivar los controles de formulario.
 * Compartir información entre elementos HTML utilizando variables de referencia de plantilla.
 * Puede ejecutar el ejemplo de ejemplo / descarga en vivo en Plunker y descargar el código desde allí.
-
-
 
 
 
