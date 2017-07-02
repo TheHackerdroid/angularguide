@@ -14,3 +14,9 @@ El siguiente ejemplo muestra un suceso de unión que implementa un controlador d
 
 src / app / click-me.component.ts
 
+```
+<button (click)="onClickMe()">Click me!</button>
+```
+
+
+
